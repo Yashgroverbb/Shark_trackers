@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brisharks | PM Portal</title>
+    <style>
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            background: #0f172a; 
+            color: white; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+            margin: 0; 
+        }
+        .card { 
+            background: #1e293b; 
+            padding: 3rem; 
+            border-radius: 20px; 
+            text-align: center; 
+            box-shadow: 0 25px 50px -12px rgba(0,0,0,0.5); 
+            border: 1px solid #334155; 
+            width: 380px; 
+        }
+        h1 { 
+            color: #38bdf8; 
+            margin-bottom: 0.5rem; 
+            letter-spacing: 2px; 
+            font-size: 2.2rem; 
+            font-weight: 800; 
+        }
+        p { 
+            color: #94a3b8; 
+            margin-bottom: 2.5rem; 
+            font-size: 1rem; 
+            line-height: 1.6; 
+        }
+        .btn { 
+            background: #0284c7; 
+            color: white; 
+            padding: 16px 32px; 
+            text-decoration: none; 
+            border-radius: 12px; 
+            font-weight: bold; 
+            font-size: 1.1rem; 
+            transition: all 0.3s ease; 
+            display: inline-block; 
+            box-shadow: 0 4px 14px 0 rgba(2, 132, 199, 0.39); 
+        }
+        .btn:hover { 
+            background: #0ea5e9; 
+            transform: translateY(-3px); 
+            box-shadow: 0 6px 20px rgba(2, 132, 199, 0.5); 
+        }
+        .footer { 
+            margin-top: 2.5rem; 
+            font-size: 0.8rem; 
+            color: #475569; 
+            border-top: 1px solid #334155; 
+            padding-top: 1.5rem; 
+        }
+        .status-dot { 
+            height: 8px; 
+            width: 8px; 
+            background-color: #4ade80; 
+            border-radius: 50%; 
+            display: inline-block; 
+            margin-right: 5px; 
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>BRISHARKS</h1>
+        <p>Product Management Portal<br>Live Module Delivery Tracking</p>
+        
+        <a href="https://script.google.com/macros/s/AKfycbwalDM_DBuObO1Kldfzd0RYqfBqZ-bAawN7ePE63q5xzXhDiEthjB9lzOHVXP5eq3eOtQ/exec" class="btn" target="_blank">Launch Live Tracker</a>
+        
+        <div class="footer">
+            <span class="status-dot"></span> Real-time Data Sync: Active
+            <br>
+            <span style="margin-top: 5px; display: block; font-size: 0.7rem;">Managed by Yash | PM Dashboard v1.0</span>
+        </div>
+    </div>
+</body>
+</html>
