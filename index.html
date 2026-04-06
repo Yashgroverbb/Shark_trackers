@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brisharks | PM Portal</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f1f5f9;
+        }
+        .navbar {
+            background: #1e293b; /* Brisharks Dark Theme */
+            color: white;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 60px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .logo { font-weight: bold; font-size: 1.3rem; letter-spacing: 1px; }
+        .status { font-size: 0.85rem; color: #94a3b8; }
+        .status span { color: #4ade80; font-weight: bold; }
+        
+        /* This iframe holds the Google Sheet Data */
+        iframe {
+            width: 100%;
+            height: calc(100% - 60px);
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="logo">BRISHARKS <span style="font-weight: 300; color: #64748b;">| Tracker</span></div>
+        <div class="status">System Status: <span>LIVE</span></div>
+    </div>
+
+    <iframe src="https://script.google.com/macros/s/AKfycbzLM4Wq7VeqG9O1HzgtGhcBcOGoUi--x__a1OP-rhHQ/exec"></iframe>
+
+</body>
+</html>
