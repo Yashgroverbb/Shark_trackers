@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brisharks | PM Portal</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; background: #0f172a; color: white; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+        .card { background: #1e293b; padding: 3rem; border-radius: 20px; text-align: center; box-shadow: 0 25px 50px -12px rgba(0,0,0,0.5); border: 1px solid #334155; width: 350px; }
+        h1 { color: #38bdf8; margin-bottom: 0.5rem; letter-spacing: 2px; font-size: 2rem; }
+        p { color: #94a3b8; margin-bottom: 2rem; font-size: 0.95rem; line-height: 1.5; }
+        .btn { background: #0284c7; color: white; padding: 14px 28px; text-decoration: none; border-radius: 10px; font-weight: bold; transition: 0.3s; display: inline-block; box-shadow: 0 4px 14px 0 rgba(2, 132, 199, 0.39); }
+        .btn:hover { background: #0ea5e9; transform: translateY(-2px); }
+        .footer { margin-top: 2rem; font-size: 0.75rem; color: #475569; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>BRISHARKS</h1>
+        <p>Product Management Dashboard<br>Live Module Delivery Tracking</p>
+        
+        <a href="https://script.google.com/macros/s/AKfycbzLM4Wq7VeqG9O1HzgtGhcBcOGoUi--x__a1OP-rhHQ/exec" class="btn">Launch Live Tracker</a>
+        
+        <div class="footer">Real-time Data Sync Active ✅</div>
+    </div>
+</body>
+</html>
